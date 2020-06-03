@@ -1,0 +1,19 @@
+{
+  "name": "willcore.fontawesome",
+  "version": "1.0.0",
+  "description": "Font-Awesome assignable for WillCore.UI",
+  "main": "moduleContainer/willCoreModules.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Philip Schoeman",
+  "license": "LGPL-2.1-only",
+  "_moduleAliases": {
+    "willcore.fontawesome": "moduleContainer/willCoreModules.js"
+  },
+  "dependencies": {
+    "mocha": "^7.2.0",
+    "module-alias": "^2.2.2",
+    "willcore.ui": "^1.1.7"
+  }
+}
